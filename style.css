@@ -1,0 +1,11 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    padding: 15px 30px;
+    max-width: 600px;
+    background-color: pink;
+    margin: 120px auto
+
+}
