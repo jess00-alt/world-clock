@@ -12,14 +12,16 @@
     <div class = "container">
     <h1> World clock </h1> 
 
-    <select value="">
+    <select value="" id = "city">
         <option value=""> Select a city... </option>
-        <option value=""> São Paulo </option>
-        <option value=""> Tokyo </option>
-        <option value=""> Cape Town </option>
+        <option value="Pacific/Auckland"> Auckland </option>
+        <option value="Africa/Johannesburg"> Johannesburg </option>
+        <option value="America/Santiago"> Santiago </option>
+        <option value ="Asia/Seoul"> Seoul </option>
+        <option value ="Europe/Oslo"> Oslo </option>
     
     </select>
-
+    <div id = "cities">
     <div class = "city" id="são-paulo">
         <div class = "info">
         <h2> São Paulo <span> 🇧🇷 </span> </h2>
@@ -35,14 +37,14 @@
         <div class = "time" id="japan-timezone"></div>
     </div>
         
-    <div class = "city" id = "cape-town">
+    <div class = "city" id = "madrid">
         <div class = "info">
-        <h2> Cape Town <span> 🇿🇦 </span> </h2>
-        <div class = "date" id="cape-town-date"></div>
+        <h2> Madrid  <span> 🇪🇸 </span> </h2>
+        <div class = "date" id="madrid-date"></div>
         </div>
-        <div class = "time" id="south-africa-timezone"></div>
+        <div class = "time" id= "madrid-timezone"></div>
     </div>
-
+    </div>
     </div>
     <footer> This project was coded by <strong><a href="https://github.com/jess00-alt"> Jessica Wessels </a></strong> and is open-sourced on <a href = "https://github.com/jess00-alt/world-clock"> GitHub </a> and hosted on Netlify </footer>
 
