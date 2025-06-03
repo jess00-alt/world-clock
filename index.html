@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel = "stylesheet" href = "/style.css">
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.47/moment-timezone-with-data-10-year-range.min.js"></script>
     <title>World clock</title>
 </head>
 <body>
@@ -18,27 +20,27 @@
     
     </select>
 
-    <div class = "city">
+    <div class = "city" id="são-paulo">
         <div class = "info">
         <h2> São Paulo <span> 🇧🇷 </span> </h2>
-        <div class = "date"> August 15th 2022 </div>
+        <div class = "date" id="são-paulo-date"></div>
         </div>
-        <div class = "time"> 1:48:15 <small> AM </small> </div>
+        <div class = "time" id="brazil-timezone"></div>
     </div>
-    <div class = "city">
+    <div class = "city" id="tokyo">
         <div class = "info">
         <h2> Tokyo <span> 🇯🇵 </span></h2>
-        <div class = "date"> August 15th 2022 </div>
+        <div class = "date" id = "tokyo-date"></div>
         </div>
-        <div class = "time"> 1:48:15 <small> AM </small> </div>
+        <div class = "time" id="japan-timezone"></div>
     </div>
         
-    <div class = "city">
+    <div class = "city" id = "cape-town">
         <div class = "info">
         <h2> Cape Town <span> 🇿🇦 </span> </h2>
-        <div class = "date"> August 15th 2022 </div>
+        <div class = "date" id="cape-town-date"></div>
         </div>
-        <div class = "time"> 1:48:15 <small> AM </small> </div>
+        <div class = "time" id="south-africa-timezone"></div>
     </div>
 
     </div>
