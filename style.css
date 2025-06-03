@@ -25,9 +25,15 @@ select {
 }
 
 .date {
-    opacity: 1.0;
     color: white;
+    font-weight: bolder;
+    font-size: 14px;
 
+}
+
+span {
+    vertical-align: middle;
+    font-size: 16px
 }
 
 .info {
@@ -70,7 +76,6 @@ footer {
     background-size: cover;
     padding: 15px 30px;
     max-width: 600px;
-    background: "default.gif";
     margin: 60px auto;
     border-radius: 10px;
     color: white;
